@@ -1,0 +1,6 @@
+C:\Users\Александр\Documents\GitHub\Farmer\FarmerProject\FarmerLibrary\bin\Debug\FarmerLibrary.dll
+C:\Users\Александр\Documents\GitHub\Farmer\FarmerProject\FarmerLibrary\bin\Debug\FarmerLibrary.pdb
+C:\Users\Александр\Documents\GitHub\Farmer\FarmerProject\FarmerLibrary\obj\Debug\FarmerLibrary.csproj.AssemblyReference.cache
+C:\Users\Александр\Documents\GitHub\Farmer\FarmerProject\FarmerLibrary\obj\Debug\FarmerLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Александр\Documents\GitHub\Farmer\FarmerProject\FarmerLibrary\obj\Debug\FarmerLibrary.dll
+C:\Users\Александр\Documents\GitHub\Farmer\FarmerProject\FarmerLibrary\obj\Debug\FarmerLibrary.pdb

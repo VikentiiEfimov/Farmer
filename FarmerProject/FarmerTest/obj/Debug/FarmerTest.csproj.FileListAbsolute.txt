@@ -1,0 +1,10 @@
+C:\Users\Александр\Documents\GitHub\Farmer\FarmerProject\FarmerTest\bin\Debug\FarmerTest.exe.config
+C:\Users\Александр\Documents\GitHub\Farmer\FarmerProject\FarmerTest\bin\Debug\FarmerTest.exe
+C:\Users\Александр\Documents\GitHub\Farmer\FarmerProject\FarmerTest\bin\Debug\FarmerTest.pdb
+C:\Users\Александр\Documents\GitHub\Farmer\FarmerProject\FarmerTest\bin\Debug\FarmerLibrary.dll
+C:\Users\Александр\Documents\GitHub\Farmer\FarmerProject\FarmerTest\bin\Debug\FarmerLibrary.pdb
+C:\Users\Александр\Documents\GitHub\Farmer\FarmerProject\FarmerTest\obj\Debug\FarmerTest.csproj.AssemblyReference.cache
+C:\Users\Александр\Documents\GitHub\Farmer\FarmerProject\FarmerTest\obj\Debug\FarmerTest.csproj.CoreCompileInputs.cache
+C:\Users\Александр\Documents\GitHub\Farmer\FarmerProject\FarmerTest\obj\Debug\FarmerTest.csproj.Up2Date
+C:\Users\Александр\Documents\GitHub\Farmer\FarmerProject\FarmerTest\obj\Debug\FarmerTest.exe
+C:\Users\Александр\Documents\GitHub\Farmer\FarmerProject\FarmerTest\obj\Debug\FarmerTest.pdb

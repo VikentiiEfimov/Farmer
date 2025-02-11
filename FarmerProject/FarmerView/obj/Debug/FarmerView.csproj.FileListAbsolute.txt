@@ -1,0 +1,10 @@
+C:\Users\Александр\Documents\GitHub\Farmer\FarmerProject\FarmerView\bin\Debug\FarmerView.exe.config
+C:\Users\Александр\Documents\GitHub\Farmer\FarmerProject\FarmerView\bin\Debug\FarmerView.exe
+C:\Users\Александр\Documents\GitHub\Farmer\FarmerProject\FarmerView\bin\Debug\FarmerView.pdb
+C:\Users\Александр\Documents\GitHub\Farmer\FarmerProject\FarmerView\obj\Debug\FarmerView.csproj.AssemblyReference.cache
+C:\Users\Александр\Documents\GitHub\Farmer\FarmerProject\FarmerView\obj\Debug\FarmerView.Properties.Resources.resources
+C:\Users\Александр\Documents\GitHub\Farmer\FarmerProject\FarmerView\obj\Debug\FarmerView.csproj.GenerateResource.cache
+C:\Users\Александр\Documents\GitHub\Farmer\FarmerProject\FarmerView\obj\Debug\FarmerView.csproj.CoreCompileInputs.cache
+C:\Users\Александр\Documents\GitHub\Farmer\FarmerProject\FarmerView\obj\Debug\FarmerView.exe
+C:\Users\Александр\Documents\GitHub\Farmer\FarmerProject\FarmerView\obj\Debug\FarmerView.pdb
+C:\Users\Александр\Documents\GitHub\Farmer\FarmerProject\FarmerView\obj\Debug\FarmerView.Form1.resources
