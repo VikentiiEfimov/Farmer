@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
 
 namespace FarmerTest
 {
@@ -18,14 +19,14 @@ namespace FarmerTest
 
         static void Test2() // Тест площади равностороннего треугольника EquilateralTriangleArea
         {
-            double p = 9.5;
+            double p = -9.5;
             double s = Farmer.EquilateralTriangleArea(p);
             Console.WriteLine("Площадь равностороннего треугольника: " + s);    
         }
 
         static void Test3() // Тест площади квадрата SquareArea
         {
-            double p = 36;
+            double p = -36;
             double s = Farmer.SquareArea(p);
             Console.WriteLine("Площадь квадрата: " + s);
         }

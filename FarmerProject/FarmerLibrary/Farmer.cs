@@ -31,7 +31,11 @@ namespace FarmerLibrary
                     return S;
                 }
             }
+<<<<<<< HEAD
             catch (Exception ex)
+=======
+            catch (FormatException ex)
+>>>>>>> d31475e09d3e223236d519f006bb22a3248af707
             {
                 Console.WriteLine(ex.Message);
                 return 0;
@@ -53,7 +57,11 @@ namespace FarmerLibrary
                     return (Math.Sqrt(3) / 4) * Math.Pow(side, 2);
                 }
             }
+<<<<<<< HEAD
             catch (Exception ex)
+=======
+            catch (FormatException ex)
+>>>>>>> d31475e09d3e223236d519f006bb22a3248af707
             {
                 Console.WriteLine(ex.Message);
                 return 0;
@@ -76,7 +84,11 @@ namespace FarmerLibrary
                     return 2 * ((Math.Sqrt(3) / 4) * Math.Pow(side, 2));
                 }
             }
+<<<<<<< HEAD
             catch (Exception ex)
+=======
+            catch (FormatException ex)
+>>>>>>> d31475e09d3e223236d519f006bb22a3248af707
             {
                 Console.WriteLine(ex.Message);
                 return 0;
@@ -99,7 +111,11 @@ namespace FarmerLibrary
                     return (5 * Math.Pow(side, 2)) / (4 * Math.Tan(Math.PI / 5));
                 }
             }
+<<<<<<< HEAD
             catch (Exception ex)
+=======
+            catch (FormatException ex)
+>>>>>>> d31475e09d3e223236d519f006bb22a3248af707
             {
                 Console.WriteLine(ex.Message);
                 return 0;
@@ -123,7 +139,11 @@ namespace FarmerLibrary
                     return shortSide * longSide;
                 }
             }
+<<<<<<< HEAD
             catch (Exception ex)
+=======
+            catch (FormatException ex)
+>>>>>>> d31475e09d3e223236d519f006bb22a3248af707
             {
                 Console.WriteLine(ex.Message);
                 return 0;
@@ -146,7 +166,11 @@ namespace FarmerLibrary
                     return Math.PI * Math.Pow(radius, 2);
                 }
             }
+<<<<<<< HEAD
             catch (Exception ex)
+=======
+            catch (FormatException ex)
+>>>>>>> d31475e09d3e223236d519f006bb22a3248af707
             {
                 Console.WriteLine(ex.Message);
                 return 0;
@@ -169,7 +193,11 @@ namespace FarmerLibrary
                     return (3 * Math.Sqrt(3) / 2) * Math.Pow(side, 2);
                 }
             }
+<<<<<<< HEAD
             catch (Exception ex)
+=======
+            catch (FormatException ex)
+>>>>>>> d31475e09d3e223236d519f006bb22a3248af707
             {
                 Console.WriteLine(ex.Message);
                 return 0;
