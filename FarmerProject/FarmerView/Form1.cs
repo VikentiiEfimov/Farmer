@@ -8,6 +8,8 @@ using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
+using FarmerLibrary;
 
 namespace FarmerView
 {
@@ -18,274 +20,133 @@ namespace FarmerView
             InitializeComponent();
         }
 
+        bool Check(string p)
+        {
+            if (p.Length == 0)
+            {
+                textBox2.Text = "Введите периметр!".ToString();
+                return false;
+            }
+            else
+            {
+                double x;
+                try
+                {
+                    x = Convert.ToDouble(p);
+                }
+                catch (Exception)
+                {
+                    textBox2.Text = "Введите число!".ToString();
+                    return false;
+                }
+                if (x < 0)
+                {
+                    textBox2.Text = "Периметр < 0!".ToString();
+                    return false;
+                }
+                else return true;
+            }
+        }
+
+        bool Check_n(string n)
+        {
+            if (n.Length == 0)
+            {
+                textBox2.Text = "Введите количество сторон!".ToString();
+                return false;
+            }
+            else
+            {
+                double x;
+                try
+                {
+                    x = Convert.ToDouble(n);
+                }
+                catch (Exception)
+                {
+                    textBox2.Text = "Введите число!".ToString();
+                    return false;
+                }
+                if (x < 3)
+                {
+                    textBox2.Text = "Количество сторон < 3!".ToString();
+                    return false;
+                }
+                else return true;
+            }
+        }
+
         private void button1_Click(object sender, EventArgs e)
         {
-            void Circle_Box()
+            string p = textBox1.Text;
+            if (Check(p) == true)
+                textBox2.Text = Farmer.EquilateralTriangleArea(Convert.ToDouble(p)).ToString();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            string p = textBox1.Text;
+            if (Check(p) == true) 
+                textBox2.Text = Farmer.SquareArea(Convert.ToDouble(p)).ToString();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            string p = textBox1.Text;
+            if (Check(p) == true)
+                textBox2.Text = Farmer.RhombusArea(Convert.ToDouble(p)).ToString();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            string p = textBox1.Text;
+            if (Check(p) == true)
+                textBox2.Text = Farmer.RectangleArea(Convert.ToDouble(p)).ToString();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            string p = textBox1.Text;
+            if (Check(p) == true)
+                textBox2.Text = Farmer.PentagonArea(Convert.ToDouble(p)).ToString();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            string p = textBox1.Text;
+            if (Check(p) == true)
+                textBox2.Text = Farmer.HexagonArea(Convert.ToDouble(p)).ToString();
+        }
+
+        private double button7_Click(object sender, EventArgs e)
+        {
+            string p = textBox1.Text;
+            if (Check(p) == true)
             {
-                string p = textBox1.Text;
-                double x;
-
-                if (p.Length == 0)
-                {
-                    textBox8.Text = "Введите периметр!".ToString();
-                    return;
-                }
-
-                else
-                {
-                    try
-                    {
-                        x = Convert.ToDouble(p);
-                    }
-                    catch (Exception)
-                    {
-                        textBox8.Text = "Введите число!".ToString();
-                        return;
-                    }
-
-                    if (x < 0)
-                    {
-                        textBox8.Text = "Периметр < 0!".ToString();
-                        return;
-                    }
-
-                    else
-                    {
-                        double radius = x / (2 * Math.PI);
-                        textBox8.Text = (Math.PI * Math.Pow(radius, 2)).ToString();
-                    }
-                }
+                textBox3.Visible = true;
+                button9.Visible = true;
+                return Convert.ToDouble(p);
             }
+            return 0;
+        }
 
-            void Triangle_Box()
+        private void button8_Click(object sender, EventArgs e)
+        {
+            string p = textBox1.Text;
+            if (Check(p) == true)
+                textBox2.Text = Farmer.CircleArea(Convert.ToDouble(p)).ToString();
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            string n = textBox3.Text;
+            if (Check_n(n) == true)
             {
-                string p = textBox2.Text;
-                double x;
-
-                if (p.Length == 0)
-                {
-                    textBox9.Text = "Введите периметр!".ToString();
-                    return;
-                }
-
-                else
-                {
-                    try
-                    {
-                        x = Convert.ToDouble(p);
-                    }
-                    catch (Exception)
-                    {
-                        textBox9.Text = "Введите число!".ToString();
-                        return;
-                    }
-
-                    if (x < 0)
-                    {
-                        textBox9.Text = "Периметр < 0!".ToString();
-                        return;
-                    }
-
-                    else
-                    {
-                        double side = x / 3;
-                        textBox9.Text = ((Math.Sqrt(3) / 4) * Math.Pow(side, 2)).ToString();
-                    }
-                }
+                textBox2.Text = Farmer.N_gonArea(button7_Click(sender, e), Convert.ToInt32(n)).ToString();
+                textBox3.Visible = false;
+                button9.Visible = false;
+                textBox3.Text = "";
             }
-
-            void Square_Box()
-            {
-                string p = textBox3.Text;
-                double x;
-
-                if (p.Length == 0)
-                {
-                    textBox10.Text = "Введите периметр!".ToString();
-                    return;
-                }
-
-                else
-                {
-                    try
-                    {
-                        x = Convert.ToDouble(p);
-                    }
-                    catch (Exception)
-                    {
-                        textBox10.Text = "Введите число!".ToString();
-                        return;
-                    }
-
-                    if (x < 0)
-                    {
-                        textBox10.Text = "Периметр < 0!".ToString();
-                        return;
-                    }
-
-                    else
-                    {
-                        textBox10.Text = (Math.Pow((x / 4), 2)).ToString();
-                    }
-                }
-            }
-
-            void Rhomb_Box()
-            {
-                string p = textBox4.Text;
-                double x;
-
-                if (p.Length == 0)
-                {
-                    textBox11.Text = "Введите периметр!".ToString();
-                    return;
-                }
-
-                else
-                {
-                    try
-                    {
-                        x = Convert.ToDouble(p);
-                    }
-                    catch (Exception)
-                    {
-                        textBox11.Text = "Введите число!".ToString();
-                        return;
-                    }
-
-                    if (x < 0)
-                    {
-                        textBox11.Text = "Периметр < 0!".ToString();
-                        return;
-                    }
-
-                    else
-                    {
-                        double side = x / 4;
-                        textBox11.Text = (2 * ((Math.Sqrt(3) / 4) * Math.Pow(side, 2))).ToString();
-                    }
-                }
-            }
-
-            void Pentagon_Box()
-            {
-                string p = textBox5.Text;
-                double x;
-
-                if (p.Length == 0)
-                {
-                    textBox12.Text = "Введите периметр!".ToString();
-                    return;
-                }
-
-                else
-                {
-                    try
-                    {
-                        x = Convert.ToDouble(p);
-                    }
-                    catch (Exception)
-                    {
-                        textBox12.Text = "Введите число!".ToString();
-                        return;
-                    }
-
-                    if (x < 0)
-                    {
-                        textBox12.Text = "Периметр < 0!".ToString();
-                        return;
-                    }
-
-                    else
-                    {
-                        double side = x / 5;
-                        textBox12.Text = ((5 * Math.Pow(side, 2)) / (4 * Math.Tan(Math.PI / 5))).ToString();
-                    }
-                }
-            }
-
-            void Rectangle_Box()
-            {
-                string p = textBox6.Text;
-                double x;
-
-                if (p.Length == 0)
-                {
-                    textBox13.Text = "Введите периметр!".ToString();
-                    return;
-                }
-
-                else
-                {
-                    try
-                    {
-                        x = Convert.ToDouble(p);
-                    }
-                    catch (Exception)
-                    {
-                        textBox13.Text = "Введите число!".ToString();
-                        return;
-                    }
-
-                    if (x < 0)
-                    {
-                        textBox13.Text = "Периметр < 0!".ToString();
-                        return;
-                    }
-
-                    else
-                    {
-                        double shortSide = x / 6;
-                        double longSide = 2 * shortSide;
-                        textBox13.Text = (shortSide * longSide).ToString();
-                    }
-                }
-            }
-
-            void Hexagon_Box()
-            {
-                string p = textBox7.Text;
-                double x;
-
-                if (p.Length == 0)
-                {
-                    textBox14.Text = "Введите периметр!".ToString();
-                    return;
-                }
-
-                else
-                {
-                    try
-                    {
-                        x = Convert.ToDouble(p);
-                    }
-                    catch (Exception)
-                    {
-                        textBox14.Text = "Введите число!".ToString();
-                        return;
-                    }
-
-                    if (x < 0)
-                    {
-                        textBox14.Text = "Периметр < 0!".ToString();
-                        return;
-                    }
-
-                    else
-                    {
-                        double side = x / 6;
-                        textBox14.Text = ((3 * Math.Sqrt(3) / 2) * Math.Pow(side, 2)).ToString();
-                    }
-                }
-            }
-
-            Circle_Box();
-            Triangle_Box();
-            Square_Box();
-            Rhomb_Box();
-            Pentagon_Box();
-            Rectangle_Box();
-            Hexagon_Box();
         }
     }
 }
