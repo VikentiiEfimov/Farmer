@@ -6,202 +6,88 @@ using System.Threading.Tasks;
 
 namespace FarmerLibrary
 {
-
-
     /// <summary>
-    /// Класс Farmer в котором находятся методы для нахождения площади зная лишь периметр
+    /// Класс Farmer в котором находятся методы для нахождения площади геометрических фигур зная лишь их периметр
     /// </summary>
     public static class Farmer
     {
-
-        // Метод вычисления площади квадрата
+        /// <summary>
+        /// Метод вычисления площади квадрата
+        /// </summary>
+        /// <param name="perimeter">Периметр квадрата (положительное число типа double )</param>
+        /// <returns>Площадь квадрата</returns>
         public static double SquareArea(double perimeter)
         {
-            try
-            {
-                if (perimeter < 0)
-                {
-                    Console.WriteLine("Периметр не может быть отрицательным");
-                    return 0;
+            double a = perimeter / 4; // Сторона квадрата
+            double s = a * a;
+            return s;
 
-                }
-                else
-                {
-                    double S = Math.Pow((perimeter / 4), 2);
-                    return S;
-                }
-            }
-<<<<<<< HEAD
-            catch (Exception ex)
-=======
-            catch (FormatException ex)
->>>>>>> d31475e09d3e223236d519f006bb22a3248af707
-            {
-                Console.WriteLine(ex.Message);
-                return 0;
-            }
         }
-        // Метод вычисления площади равностороннего треугольника
+        /// <summary>
+        /// Метод вычисления площади равностороннего треугольника
+        /// </summary>
+        /// <param name="perimeter">Периметр равностороннего треугольника (положительное число типа double )</param>
+        /// <returns>Площадь равностороннего треугольника</returns>
         public static double EquilateralTriangleArea(double perimeter)
-        {
-            try
-            {
-                if (perimeter < 0)
-                {
-                    Console.WriteLine("Периметр не может быть отрицательным");
-                    return 0;
-                }
-                else
-                {
-                    double side = perimeter / 3;
-                    return (Math.Sqrt(3) / 4) * Math.Pow(side, 2);
-                }
-            }
-<<<<<<< HEAD
-            catch (Exception ex)
-=======
-            catch (FormatException ex)
->>>>>>> d31475e09d3e223236d519f006bb22a3248af707
-            {
-                Console.WriteLine(ex.Message);
-                return 0;
-            }
+        {  
+            double side = perimeter / 3; // Сторона равностороннего треугольника
+            return (Math.Sqrt(3) / 4) * side * side;
         }
 
-        // Метод вычисления площади правильного ромба (предполагается, что он состоит из двух равносторонних треугольников)
+        /// <summary>
+        /// Метод вычисления площади правильного ромба
+        /// </summary>
+        /// <param name="perimeter">Периметр равностороннего треугольника (положительное число типа double)</param>
+        /// <returns>Площадь правильного ромба</returns>
         public static double RhombusArea(double perimeter)
         {
-            try
-            {
-                if (perimeter < 0)
-                {
-                    Console.WriteLine("Периметр не может быть отрицательным");
-                    return 0;
-                }
-                else
-                {
-                    double side = perimeter / 4;
-                    return 2 * ((Math.Sqrt(3) / 4) * Math.Pow(side, 2));
-                }
-            }
-<<<<<<< HEAD
-            catch (Exception ex)
-=======
-            catch (FormatException ex)
->>>>>>> d31475e09d3e223236d519f006bb22a3248af707
-            {
-                Console.WriteLine(ex.Message);
-                return 0;
-            }
+            double side = perimeter / 4; // сторона правильного ромба
+            return 2 * ((Math.Sqrt(3) / 4) * side * side);
         }
 
-        // Метод вычисления площади правильного пятиугольника
+        /// <summary>
+        /// Метод вычисления площади правильного пятиугольника
+        /// </summary>
+        /// <param name="perimeter">Периметр правильного пятиугольника (положительное число типа double)</param>
+        /// <returns></returns> 
         public static double PentagonArea(double perimeter)
-        {
-            try
-            {
-                if (perimeter < 0)
-                {
-                    Console.WriteLine("Периметр не может быть отрицательным");
-                    return 0;
-                }
-                else
-                {
-                    double side = perimeter / 5;
-                    return (5 * Math.Pow(side, 2)) / (4 * Math.Tan(Math.PI / 5));
-                }
-            }
-<<<<<<< HEAD
-            catch (Exception ex)
-=======
-            catch (FormatException ex)
->>>>>>> d31475e09d3e223236d519f006bb22a3248af707
-            {
-                Console.WriteLine(ex.Message);
-                return 0;
-            }
+        { 
+            double side = perimeter / 5; // Сторона правильного пятиугольника
+            return (5 * side * side) / (4 * Math.Tan(Math.PI / 5)); // Тангенс пи/5
         }
 
-        // Метод вычисления площади прямоугольника, у которого одна сторона вдвое больше другой
+        /// <summary>
+        /// Метод вычисления площади прямоугольника, у которого одна сторона вдвое больше другой
+        /// </summary>
+        /// <param name="perimeter">Периметр прямоугольника, у которого одна сторона вдвое больше другой (положительное число типа double)</param>
+        /// <returns>Площадь прямоугольника, у которого одна сторона вдвое больше другой</returns>        
         public static double RectangleArea(double perimeter)
         {
-            try
-            {
-                if (perimeter < 0)
-                {
-                    Console.WriteLine("Периметр не может быть отрицательным");
-                    return 0;
-                }
-                else
-                {
-                    double shortSide = perimeter / 6;
-                    double longSide = 2 * shortSide;
-                    return shortSide * longSide;
-                }
-            }
-<<<<<<< HEAD
-            catch (Exception ex)
-=======
-            catch (FormatException ex)
->>>>>>> d31475e09d3e223236d519f006bb22a3248af707
-            {
-                Console.WriteLine(ex.Message);
-                return 0;
-            }
+            double shortSide = perimeter / 6; //Малая сторона
+            double longSide = 2 * shortSide; //Большая сторона
+            return shortSide * longSide;
         }
 
-        // Метод вычисления площади круга
+        /// <summary>
+        /// Метод вычисления площади круга
+        /// </summary>
+        /// <param name="perimeter">Периметр круга (положительное число типа double)</param>
+        /// <returns>Площадь круга</returns>
         public static double CircleArea(double perimeter)
         {
-            try
-            {
-                if (perimeter < 0)
-                {
-                    Console.WriteLine("Периметр не может быть отрицательным");
-                    return 0;
-                }
-                else
-                {
-                    double radius = perimeter / (2 * Math.PI);
-                    return Math.PI * Math.Pow(radius, 2);
-                }
-            }
-<<<<<<< HEAD
-            catch (Exception ex)
-=======
-            catch (FormatException ex)
->>>>>>> d31475e09d3e223236d519f006bb22a3248af707
-            {
-                Console.WriteLine(ex.Message);
-                return 0;
-            }
+            double radius = perimeter / (2 * Math.PI); // Радиус
+            return Math.PI * radius * radius;
         }
 
-        // Метод вычисления площади правильного шестиугольника
+        /// <summary>
+        /// Метод вычисления площади правильного шестиугольника
+        /// </summary>
+        /// <param name="perimeter">Периметр правильного шестиугольника (положительное число типа double)</param>
+        /// <returns>Площадь правильного шестиугольника </returns>
         public static double HexagonArea(double perimeter)
         {
-            try
-            {
-                if (perimeter < 0)
-                {
-                    Console.WriteLine("Периметр не может быть отрицательным");
-                    return 0;
-                }
-                else
-                {
-                    double side = perimeter / 6;
-                    return (3 * Math.Sqrt(3) / 2) * Math.Pow(side, 2);
-                }
-            }
-<<<<<<< HEAD
-            catch (Exception ex)
-=======
-            catch (FormatException ex)
->>>>>>> d31475e09d3e223236d519f006bb22a3248af707
-            {
-                Console.WriteLine(ex.Message);
-                return 0;
-            }
+            double side = perimeter / 6; // сторона
+            return (3 * Math.Sqrt(3) / 2) * side * side;
         }
     }
 }
