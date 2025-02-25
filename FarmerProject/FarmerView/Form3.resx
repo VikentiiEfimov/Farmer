@@ -117,13 +117,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="label1.Text" xml:space="preserve">
-    <value>- Нажмите на кнопку НАЧАТЬ, 
-чтобы перейти к выбору геометрической фигуры
-- Нажмите на любую из следующих восьми кнопок, 
-чтобы перейти к расчёту площади выбранной фигуры
-- Запишите периметр в нужное поле
-- Нажмите на кнопку РАССЧИТАТЬ, 
-чтобы найти величину площади по заданному периметру</value>
-  </data>
 </root>

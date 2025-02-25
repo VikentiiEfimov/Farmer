@@ -26,16 +26,16 @@ namespace FarmerTest
 
         static void Test3() // Тест площади квадрата SquareArea
         {
-            double p = -36;
-            double s = Farmer.SquareArea(p);
-            Console.WriteLine("Площадь квадрата: " + s);
+            double p = 1;
+            double s = Farmer.SquareArea(4);
+            Console.WriteLine("квадрат: " + (p == s));
         }
 
-        static void Test4() // Тест площади правильного ромба RhombusArea
+        static void Test4() // Тест площади правильного ромба RhombusArea Math.Round((float)n / G, 3)
         {
-            double p = 315;
-            double s = Farmer.RhombusArea(p);
-            Console.WriteLine("Площадь правильного ромба: " + s);
+            double p = 5370;
+            double s = Farmer.RhombusArea(314.97919);
+            Console.WriteLine("Площадь правильного ромба: " + (p == s));
         }
         
         static void Test5() // Тест площади правильного пятиугольника PentagonArea
