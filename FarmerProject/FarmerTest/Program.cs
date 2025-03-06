@@ -12,51 +12,51 @@ namespace FarmerTest
     {
         public static void Test1() // Тест площади круга CircleArea
         {
-            double p = 9.23;
-            double s = Farmer.CircleArea(p);
-            Console.WriteLine("Площадь круга: " + s);
+            double p = 894.132;
+            double s = Math.Round(Farmer.CircleArea(106), 3);
+            Console.WriteLine("Площадь круга: " + (p == s));
         }
 
         static void Test2() // Тест площади равностороннего треугольника EquilateralTriangleArea
         {
-            double p = -9.5;
-            double s = Farmer.EquilateralTriangleArea(p);
-            Console.WriteLine("Площадь равностороннего треугольника: " + s);    
+            double p = 54.641;
+            double s = Math.Round(Farmer.EquilateralTriangleArea(33.7), 3);
+            Console.WriteLine("Площадь равностороннего треугольника: " + (p == s));
         }
 
         static void Test3() // Тест площади квадрата SquareArea
         {
             double p = 1;
             double s = Farmer.SquareArea(4);
-            Console.WriteLine("квадрат: " + (p == s));
+            Console.WriteLine("Площадь квадрата: " + (p == s));
         }
 
         static void Test4() // Тест площади правильного ромба RhombusArea Math.Round((float)n / G, 3)
         {
-            double p = 5370;
-            double s = Farmer.RhombusArea(314.97919);
+            double p = 5336.665;
+            double s = Math.Round(Farmer.RhombusArea(314), 3);
             Console.WriteLine("Площадь правильного ромба: " + (p == s));
         }
         
         static void Test5() // Тест площади правильного пятиугольника PentagonArea
         {
-            double p = 55;
-            double s = Farmer.PentagonArea(p);
-            Console.WriteLine("Площадь правильного пятиугольника: " + s);
+            double p = 4.996;
+            double s = Math.Round(Farmer.PentagonArea(8.52), 3);
+            Console.WriteLine("Площадь правильного пятиугольника: " + (p == s));
         }
 
         static void Test6() // Тест площади прмоугольника, у которого одна сторона вдвое больше другой RectangleArea
         {
-            double p = 5.600;
-            double s = Farmer.RectangleArea(p);
-            Console.WriteLine("Площадь прямоугольника, у которого одна сторона вдвое больше другой: " + s);
+            double p = 50;
+            double s = Farmer.RectangleArea(30);
+            Console.WriteLine("Площадь прямоугольника, у которого одна сторона вдвое больше другой: " + (p == s));
         }
 
         static void Test7() // Тест площади правильного шестиугольника HexagonArea
         {
-            double p = 0.26;
-            double s = Farmer.HexagonArea(p);
-            Console.WriteLine("Площадь правильного шестиугольника: " + s);
+            double p = 389.874;
+            double s = Math.Round(Farmer.HexagonArea(73.5), 3);
+            Console.WriteLine("Площадь правильного шестиугольника: " + (p == s));
         }
 
         /// <summary>
