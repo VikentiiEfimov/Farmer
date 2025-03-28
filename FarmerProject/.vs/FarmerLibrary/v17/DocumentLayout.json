@@ -3,23 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\viken\\source\\repos\\Farmer\\FarmerProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D9C0211E-48FC-4E5D-9431-43355B5A33EF}|FarmerTest\\FarmerTest.csproj|c:\\users\\viken\\source\\repos\\farmer\\farmerproject\\farmertest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D9C0211E-48FC-4E5D-9431-43355B5A33EF}|FarmerTest\\FarmerTest.csproj|solutionrelative:farmertest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D8050D87-2B4F-4871-AED7-899919A4419E}|FarmerLibrary\\FarmerLibrary.csproj|C:\\Users\\viken\\source\\repos\\Farmer\\FarmerProject\\farmerlibrary\\farmer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D8050D87-2B4F-4871-AED7-899919A4419E}|FarmerLibrary\\FarmerLibrary.csproj|solutionrelative:farmerlibrary\\farmer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F1E252C-1621-4FE6-BFE9-4B6330F02D33}|FarmerView\\FarmerView.csproj|c:\\users\\viken\\source\\repos\\farmer\\farmerproject\\farmerview\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{6F1E252C-1621-4FE6-BFE9-4B6330F02D33}|FarmerView\\FarmerView.csproj|solutionrelative:farmerview\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F1E252C-1621-4FE6-BFE9-4B6330F02D33}|FarmerView\\FarmerView.csproj|C:\\Users\\viken\\source\\repos\\Farmer\\FarmerProject\\farmerview\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{6F1E252C-1621-4FE6-BFE9-4B6330F02D33}|FarmerView\\FarmerView.csproj|solutionrelative:farmerview\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F1E252C-1621-4FE6-BFE9-4B6330F02D33}|FarmerView\\FarmerView.csproj|C:\\Users\\viken\\source\\repos\\Farmer\\FarmerProject\\farmerview\\form3.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6F1E252C-1621-4FE6-BFE9-4B6330F02D33}|FarmerView\\FarmerView.csproj|c:\\users\\viken\\source\\repos\\farmer\\farmerproject\\farmerview\\form3.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6F1E252C-1621-4FE6-BFE9-4B6330F02D33}|FarmerView\\FarmerView.csproj|solutionrelative:farmerview\\form3.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -27,12 +11,28 @@
       "RelativeMoniker": "D:0:0:{6F1E252C-1621-4FE6-BFE9-4B6330F02D33}|FarmerView\\FarmerView.csproj|solutionrelative:farmerview\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F1E252C-1621-4FE6-BFE9-4B6330F02D33}|FarmerView\\FarmerView.csproj|C:\\Users\\viken\\source\\repos\\Farmer\\FarmerProject\\farmerview\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F1E252C-1621-4FE6-BFE9-4B6330F02D33}|FarmerView\\FarmerView.csproj|solutionrelative:farmerview\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6F1E252C-1621-4FE6-BFE9-4B6330F02D33}|FarmerView\\FarmerView.csproj|C:\\Users\\viken\\source\\repos\\Farmer\\FarmerProject\\farmerview\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6F1E252C-1621-4FE6-BFE9-4B6330F02D33}|FarmerView\\FarmerView.csproj|solutionrelative:farmerview\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F1E252C-1621-4FE6-BFE9-4B6330F02D33}|FarmerView\\FarmerView.csproj|C:\\Users\\viken\\source\\repos\\Farmer\\FarmerProject\\farmerview\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6F1E252C-1621-4FE6-BFE9-4B6330F02D33}|FarmerView\\FarmerView.csproj|solutionrelative:farmerview\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F1E252C-1621-4FE6-BFE9-4B6330F02D33}|FarmerView\\FarmerView.csproj|C:\\Users\\viken\\source\\repos\\Farmer\\FarmerProject\\farmerview\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6F1E252C-1621-4FE6-BFE9-4B6330F02D33}|FarmerView\\FarmerView.csproj|solutionrelative:farmerview\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F1E252C-1621-4FE6-BFE9-4B6330F02D33}|FarmerView\\FarmerView.csproj|C:\\Users\\viken\\source\\repos\\Farmer\\FarmerProject\\farmerview\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6F1E252C-1621-4FE6-BFE9-4B6330F02D33}|FarmerView\\FarmerView.csproj|solutionrelative:farmerview\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8050D87-2B4F-4871-AED7-899919A4419E}|FarmerLibrary\\FarmerLibrary.csproj|C:\\Users\\viken\\source\\repos\\Farmer\\FarmerProject\\farmerlibrary\\farmer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8050D87-2B4F-4871-AED7-899919A4419E}|FarmerLibrary\\FarmerLibrary.csproj|solutionrelative:farmerlibrary\\farmer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9C0211E-48FC-4E5D-9431-43355B5A33EF}|FarmerTest\\FarmerTest.csproj|C:\\Users\\viken\\source\\repos\\Farmer\\FarmerProject\\farmertest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9C0211E-48FC-4E5D-9431-43355B5A33EF}|FarmerTest\\FarmerTest.csproj|solutionrelative:farmertest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,31 +42,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "Form3.cs",
               "DocumentMoniker": "C:\\Users\\viken\\source\\repos\\Farmer\\FarmerProject\\FarmerView\\Form3.cs",
               "RelativeDocumentMoniker": "FarmerView\\Form3.cs",
               "ToolTip": "C:\\Users\\viken\\source\\repos\\Farmer\\FarmerProject\\FarmerView\\Form3.cs",
               "RelativeToolTip": "FarmerView\\Form3.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAQwHgAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAswBsAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-25T19:27:13.408Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Form3.Designer.cs",
               "DocumentMoniker": "C:\\Users\\viken\\source\\repos\\Farmer\\FarmerProject\\FarmerView\\Form3.Designer.cs",
               "RelativeDocumentMoniker": "FarmerView\\Form3.Designer.cs",
               "ToolTip": "C:\\Users\\viken\\source\\repos\\Farmer\\FarmerProject\\FarmerView\\Form3.Designer.cs",
               "RelativeToolTip": "FarmerView\\Form3.Designer.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAYwE8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAYwGwAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-25T19:20:57.055Z",
               "IsPinned": true,
@@ -74,7 +73,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Form3.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "DocumentMoniker": "C:\\Users\\viken\\source\\repos\\Farmer\\FarmerProject\\FarmerView\\Form3.cs",
               "RelativeDocumentMoniker": "FarmerView\\Form3.cs",
@@ -82,8 +81,7 @@
               "RelativeToolTip": "FarmerView\\Form3.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-25T19:21:37.396Z",
-              "IsPinned": true,
-              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -91,66 +89,61 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\viken\\source\\repos\\Farmer\\FarmerProject\\FarmerTest\\Program.cs",
-              "RelativeDocumentMoniker": "FarmerTest\\Program.cs",
-              "ToolTip": "C:\\Users\\viken\\source\\repos\\Farmer\\FarmerProject\\FarmerTest\\Program.cs",
-              "RelativeToolTip": "FarmerTest\\Program.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAA9wDkAAAA/AAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\viken\\source\\repos\\Farmer\\FarmerProject\\FarmerView\\Form1.cs",
+              "RelativeDocumentMoniker": "FarmerView\\Form1.cs",
+              "ToolTip": "C:\\Users\\viken\\source\\repos\\Farmer\\FarmerProject\\FarmerView\\Form1.cs",
+              "RelativeToolTip": "FarmerView\\Form1.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-06T11:33:10.736Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-18T18:09:00.464Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Form2.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "DocumentMoniker": "C:\\Users\\viken\\source\\repos\\Farmer\\FarmerProject\\FarmerView\\Form2.cs",
               "RelativeDocumentMoniker": "FarmerView\\Form2.cs",
               "ToolTip": "C:\\Users\\viken\\source\\repos\\Farmer\\FarmerProject\\FarmerView\\Form2.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "RelativeToolTip": "FarmerView\\Form2.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-06T14:32:56.518Z",
-              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+              "WhenOpened": "2025-03-18T18:08:52.408Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\viken\\source\\repos\\Farmer\\FarmerProject\\FarmerView\\Form1.cs",
+              "RelativeDocumentMoniker": "FarmerView\\Form1.cs",
+              "ToolTip": "C:\\Users\\viken\\source\\repos\\Farmer\\FarmerProject\\FarmerView\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "FarmerView\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T18:08:49.921Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "Form2.cs",
-              "DocumentMoniker": "C:\\Users\\viken\\source\\repos\\Farmer\\FarmerProject\\FarmerView\\Form2.cs",
-              "RelativeDocumentMoniker": "FarmerView\\Form2.cs",
-              "ToolTip": "C:\\Users\\viken\\source\\repos\\Farmer\\FarmerProject\\FarmerView\\Form2.cs",
-              "RelativeToolTip": "FarmerView\\Form2.cs",
-              "ViewState": "AgIAAE4AAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T11:17:17.593Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\viken\\source\\repos\\Farmer\\FarmerProject\\FarmerView\\Form1.cs",
-              "RelativeDocumentMoniker": "FarmerView\\Form1.cs",
-              "ToolTip": "C:\\Users\\viken\\source\\repos\\Farmer\\FarmerProject\\FarmerView\\Form1.cs",
-              "RelativeToolTip": "FarmerView\\Form1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T11:16:52.667Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "Farmer.cs",
               "DocumentMoniker": "C:\\Users\\viken\\source\\repos\\Farmer\\FarmerProject\\FarmerLibrary\\Farmer.cs",
               "RelativeDocumentMoniker": "FarmerLibrary\\Farmer.cs",
               "ToolTip": "C:\\Users\\viken\\source\\repos\\Farmer\\FarmerProject\\FarmerLibrary\\Farmer.cs",
               "RelativeToolTip": "FarmerLibrary\\Farmer.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBAAAABAAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwB0AAABpAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T11:14:24.843Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-27T11:14:24.843Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\viken\\source\\repos\\Farmer\\FarmerProject\\FarmerTest\\Program.cs",
+              "RelativeDocumentMoniker": "FarmerTest\\Program.cs",
+              "ToolTip": "C:\\Users\\viken\\source\\repos\\Farmer\\FarmerProject\\FarmerTest\\Program.cs",
+              "RelativeToolTip": "FarmerTest\\Program.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAwwAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T11:33:10.736Z"
             }
           ]
         }
